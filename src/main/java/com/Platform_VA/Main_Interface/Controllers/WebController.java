@@ -15,4 +15,8 @@ public class WebController {
     public String login() {
         return "Main_Interface/login";
     }
+    @GetMapping("/admin")
+    public String admin() {
+        return "Admin_Interface/adminPage";
+    }
 }
